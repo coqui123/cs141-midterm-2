@@ -44,7 +44,7 @@ void replacementCost(PantryItem item, double priceOfItem) {
 void displayFirstToExpire(vector<PantryItem> pantryCabinet) {
 	int min = pantryCabinet[0].daysUntilExpiration;
 	int index = 0;
-	for (int i = 0; i < pantryCabinet.size(); i++) {
+	for (int i = 0; i < reinterpret_cast<int>(pantryCabinet.size()); i++) {
 		if (pantryCabinet[i].daysUntilExpiration < min) {
 			min = pantryCabinet[i].daysUntilExpiration;
 			index = i;
