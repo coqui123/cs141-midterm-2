@@ -1,3 +1,6 @@
+//started at 2:11
+//finished at 2:16
+
 /*
 
  CS 141 Midterm #2, Fall 2022
